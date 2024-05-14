@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+/* Fonts */
+
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/poppins/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/poppins/Poppins-SemiBold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: poppins;
+  src: url("/public/fonts/poppins/Poppins-Bold.ttf");
+  font-weight: 900;
+}
+
+body {
+  background-color: black !important;
+}
+
+/* header styles */
+
+/* Filter Page Styles */
+
+.filter-input::placeholder {
+  color: white !important;
+  padding: 10px;
+}
+
+.css-1e4sw3a-MuiButtonBase-root-MuiToggleButton-root.Mui-selected {
+  background-color: #53acff !important;
+  color: white !important;
+}
+
+/* SideBar Page Styles */
+
+.sideList2,
+.sideList3,
+.sideList4 {
+  color: gray !important;
+}
