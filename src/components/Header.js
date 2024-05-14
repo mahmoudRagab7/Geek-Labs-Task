@@ -188,6 +188,7 @@ export default function Header() {
         onClose={handleClose}
         aria-labelledby="customized-dialog-title"
         open={open}
+        scroll={"body"}
       >
         {/* <DialogTitle
           sx={{ m: 0, p: 2 }}
@@ -270,7 +271,18 @@ export default function Header() {
             >
               ALERTS
             </Typography>
-            <Search style={{ width: "100%" }}>
+            <Search
+              className="hoda"
+              style={{ width: "100%", margin: "0px 0px 0px 5px" }}
+              // sx={{
+              //   width: {
+              //     xs: "175px !important",
+              //     sm: "175px !important",
+              //     md: "195px !important",
+              //   },
+              //   right: { xs: "-15px", sm: "-15px", md: "0px" },
+              // }}
+            >
               <SearchIconWrapper style={{ position: "absolute", right: "0px" }}>
                 <SearchIcon style={{ color: "gray" }} />
               </SearchIconWrapper>

@@ -162,7 +162,9 @@ export default function Filter() {
           textAlign: "left",
         }}
       >
-        <p style={{ position: "absolute", top: "-40px" }}>Filter Applied</p>
+        <p style={{ position: "absolute", top: "-40px", color: "gray" }}>
+          Filter Applied
+        </p>
         <p
           style={{
             position: "absolute",
@@ -535,7 +537,7 @@ export default function Filter() {
         <Button
           variant="outlined"
           color="accent"
-          style={{ fontWeight: 600, fontSize: "20px" }}
+          style={{ fontWeight: 600, fontSize: "12px" }}
           sx={{ display: { xs: "block", sm: "block", md: "none" } }}
         >
           Save filter
@@ -544,7 +546,7 @@ export default function Filter() {
           variant="contained"
           color="accent"
           onClick={handleSearchClick}
-          style={{ fontWeight: 600, fontSize: "20px" }}
+          style={{ fontWeight: 600, fontSize: "12px" }}
         >
           Apply
         </Button>

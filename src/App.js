@@ -27,11 +27,11 @@ function App() {
     <div className="App">
       <ThemeProvider theme={theme}>
         <Grid container spacing={0}>
-          <Grid lg={2} md={1} sm={2} xs={0}>
+          <Grid lg={2} md={1} sm={2} xs={1.25}>
             <SideBar />
           </Grid>
 
-          <Grid lg={6} md={7} sm={10} xs={12}>
+          <Grid lg={6} md={7} sm={10} xs={10.75}>
             <Header />
             <Cards />
           </Grid>
